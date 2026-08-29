@@ -104,6 +104,13 @@ int main() {
             }
             if (!grid.win() && p == 9) {
                 cout << "\nEmpate! Ninguém ganhou!\n";
+                cout << "Vocês querem jogar novamente? [S/N]";
+                cin >> f;
+
+                while (f != 'S' && f != 'N' && f != 's' && f != 'n') {
+                    cout << "Erro, tente uma opção válida [S/N]: ";
+                    cin >> f;
+                }
             }
         }
 
