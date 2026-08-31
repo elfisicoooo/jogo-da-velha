@@ -2,7 +2,7 @@
 
 ### Descrição
 
-O jogo da velha é muito conhecido e ajuda as pessoas a passarem o tempo, decidirem coisas, etc. Aqui, temos um jogo da velha que pede ao jogador da vez qual posição ele quer ocupar. Se a opção escolhida já estiver ocupada ou for inválida, o programa pede outra posição ao usuário sem passar a vez ao outro, assim, é garantido um jogo justo e dinâmico. Após cada jogada, o tabuleiro é atualizado automaticamente e exibido na tela.
+O jogo da velha é muito conhecido e ajuda as pessoas a passarem o tempo, decidirem coisas, etc. Aqui, temos um jogo da velha que pede ao jogador da vez qual posição ele quer ocupar. Se a opção escolhida já estiver ocupada ou for inválida, o programa pede outra posição ao usuário sem passar a vez ao outro, assim, é garantido um jogo justo e dinâmico. Após cada jogada. O tabuleiro é atualizado automaticamente e exibido na tela, além de que o programa verifica vitórias após todas as rodadas, quando alguém vence, é exibido uma mensagem de parabéns e quando ocorre um empate, é exibido uma mensagem de empate. Após cada rodada, os jogadores têm a oportunidade de jogarem mais vezes, sem precisar rodar novamente o programa.
 
 ### Capturas de tela
 
