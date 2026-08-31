@@ -79,11 +79,11 @@ int main() {
         while (!grid.win() && p < 9) {
             jogador = 3 - jogador;
             vector <char> x = {'X', 'O'};
-            cout << "\nJogador " << jogador << " (" << x[jogador - 1] << "), escolha uma posição:";
+            cout << "\nJogador " << jogador << " (" << x[jogador - 1] << "), escolha uma posicao:";
             
             char a; cin >> a;
             while (!grid.validar(a)) {
-                cout << "Posição inválida ou já ocupada. Tente novamente: ";
+                cout << "Posicao invalida ou ja ocupada. Tente novamente: ";
                 cin >> a;
             }
             grid.alterar(a, jogador);
@@ -92,23 +92,23 @@ int main() {
 
             p ++;
             if (grid.win()) {
-                cout << "\nParabéns! Jogador " << jogador << " venceu!\n";
-                cout << "Vocês querem jogar novamente? [S/N]";
+                cout << "\nParabens! Jogador " << jogador << " venceu!\n";
+                cout << "Voces querem jogar novamente? [S/N]";
                 cin >> f;
 
                 while (f != 'S' && f != 'N' && f != 's' && f != 'n') {
-                    cout << "Erro, tente uma opção válida [S/N]: ";
+                    cout << "Erro, tente uma opção valida [S/N]: ";
                     cin >> f;
                 }
 
             }
             if (!grid.win() && p == 9) {
-                cout << "\nEmpate! Ninguém ganhou!\n";
-                cout << "Vocês querem jogar novamente? [S/N]";
+                cout << "\nEmpate! Ninguem ganhou!\n";
+                cout << "Voces querem jogar novamente? [S/N]";
                 cin >> f;
 
                 while (f != 'S' && f != 'N' && f != 's' && f != 'n') {
-                    cout << "Erro, tente uma opção válida [S/N]: ";
+                    cout << "Erro, tente uma opção valida [S/N]: ";
                     cin >> f;
                 }
             }
