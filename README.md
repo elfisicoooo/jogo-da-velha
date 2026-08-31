@@ -11,3 +11,52 @@ O jogo da velha é muito conhecido e ajuda as pessoas a passarem o tempo, decidi
   <img src="./imagens/Demonstração2.png" width="45%" alt="Foto 2">
 </p>
 
+### Instalação e Pré-requisitos
+
+1. No terminal, digite:
+   
+   ```
+   git clone https://github.com/elfisicoooo/jogo-da-velha
+   cd jogo-da-velha
+   ```
+
+2. Após isso, compile com:
+   
+   ```
+   gcc main.c -o jogo-da-velha
+   ```
+
+3. Por fim, rode com:
+   
+   Windows:
+   ```
+   jogo-da-velha.exe
+   ```
+   Linux/macOS:
+   ```
+   ./jogo-da-velha
+   ```
+
+### Usos e exemplos
+
+Ao rodar o programa, é exibido uma mensagem de boas vindas e o tabuleiro inicial. A partir disso, o programa alterna entre os jogadores pedindo que eles escolham qual posição do tabuleiro eles querem ocupar. Caso algum usuário escolha uma opção inválida (por não estar no intervalo correto, estar já ocupada ou não ser um número), o programa continua pedindo até uma opção válida ser inserida, e só depois disso passa a vez ao outro jogador. 
+
+No momento em que um jogador ganha, é exibida uma mensagem de parabéns, mas se houver empate, é exibida uma mensagem de empate. Depois que o jogo acaba, o programa pergunta se querem continuar, e caso a resposta for positiva (s ou S), o jogo reinicia, se for negativa (n ou N), o jogo acaba, e se for qualquer outra coisa, aparece uma mensagem de erro pedindo que os usuários insiram outra opção.
+
+### Estrutura do projeto
+
+```
+jogo-da-velha/  
+│── main.cpp 
+│── LICENSE
+│── README.md  
+└── imagens/  
+    ├── Demonstração1.png
+    └── Demonstração2.png
+```
+
+O arquivo main.cpp contém todo o código do jogo, LICENSE.md contém a licença e o diretório imagens/ contém fotos de demonstrações do uso do programa.
+
+## Licença  
+
+Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.  
