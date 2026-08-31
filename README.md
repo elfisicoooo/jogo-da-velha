@@ -23,7 +23,7 @@ O jogo da velha é muito conhecido e ajuda as pessoas a passarem o tempo, decidi
 2. Após isso, compile com:
    
    ```
-   gcc main.c -o jogo-da-velha
+   g++ main.cpp -o jogo-da-velha
    ```
 
 3. Por fim, rode com:
