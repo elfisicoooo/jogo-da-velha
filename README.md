@@ -62,25 +62,25 @@ Com o `g++` instalado e disponível no terminal, siga as instruções abaixo par
 
     ```
     git clone https://github.com/elfisicoooo/jogos-de-nim
-    cd jogos-de-nim
+    cd jogo-da-velha
     ```
 
 2. Após isso, compile com:
 
     ```
-    g++ main.cpp -o jogos-de-nim
+    g++ main.cpp -o jogo-da-velha
     ```
 
 3. Por fim, rode com:
 
      Windows:
     ```
-    jogos-de-nim.exe
+    jogo-da-velha.exe
     ```
 
     Linux/macOS:
     ```
-    ./jogos-de-nim
+    ./jogo-da-velha
     ```
 
 
